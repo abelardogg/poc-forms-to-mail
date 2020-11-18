@@ -1,0 +1,25 @@
+{
+  "name": "poc-forms-to-mail",
+  "version": "1.0.0",
+  "description": "Collect info from multiple forms and send them to email.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abelardogg/poc-forms-to-mail.git"
+  },
+  "author": "abelardogg",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/abelardogg/poc-forms-to-mail/issues"
+  },
+  "homepage": "https://github.com/abelardogg/poc-forms-to-mail#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "nodemailer": "^6.4.16"
+  }
+}
